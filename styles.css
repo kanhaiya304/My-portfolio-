@@ -125,7 +125,20 @@ footer {
               
    .link {
         disp;ay:none;
-   }                                           
+   }
+
+   table {
+           td {
+               font-size: 1px;
+           }
+   }
+       
+   .descp {
+           p {
+               font-size: 11px;
+           }
+   }     
+
 }
     
 .logo {
@@ -248,13 +261,13 @@ footer {
 }
      
 li {
-       padding: 3rem;
-       list-style-type: none;
-       column-count;
-       display:inline-block;
-}
+         padding: 2rem;
+         list-style-type: none;
+         column-count;
+         display:inline-block;
+     }
      
-.experience {
+     .experience {
          margin: 2rem 0;                        
          padding: 1rem;
          background-color: #EDF2F4;
@@ -393,8 +406,4 @@ li {
                  }
              }
          }
-     }
-     
-     
-      
-    
+    }
