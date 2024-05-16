@@ -254,22 +254,147 @@ li {
        display:inline-block;
 }
      
-.experience {                        
-       padding:2rem;
-       background-color:lightgray;
-       color :black;
-       font-size:1.2rem;
-}
+.experience {
+         margin: 2rem 0;                        
+         padding: 1rem;
+         background-color: #EDF2F4;
+         color :black;
+         border-radius: 1rem;
+         font-size:1.2rem;
+     }
      
-.title {
-       padding:0;
-       margin:0;
-       font-weight: bold;
-       color:#333;               
-}
+     table {
+         width: 100%;                                       
+        th {
+            padding: 4px;
+            background-color: #999;
+            color: black; 
+            border-radius: 4px;
+        }
+                        
+        td {
+           padding: 4px;
+           background-color: black;
+           border-radius: 4px; 
+           color: white;
+           text-align: center; 
+           font-weight: bold;
+        }
+     }
      
-.descp {
-       font-weight:1rem;
-}  
+     .descp {          
+         h4 {
+             margin-bottom: 2px;             
+         }
+                
+         p {                         
+             margin: 0;
+             padding: 0 20px;
+             text-align: justify;                         
+         }                  
+     }
+          
+     .Pro {
+        display: flex;               
+        align-items: center;
+        justify-content: flex-start; 
+        overflow-x: auto; 
+        gap: 1rem;
+        width: 100%; 
+        white-space: nowrap; 
+    }
+
+    .Pro .project {                      
+        height: 28rem;
+        width: 17.4rem;
+        border-radius: 1rem;     
+    }
+                    
+     .animated-text {
+        font-size: 20px;
+        font-weight: 600;
+        min-width: 280px;
+    }
+
+    .animated-text span {
+        position: relative;
+    }
+
+    .animated-text span::before {
+        content: "Youtuber";
+        color: #ff7150;
+        animation: words 16s infinite;
+    }
+
+    .animated-text span::after {
+        content: "";
+        position: absolute;
+        width: calc(100% - 8px);
+        height: 100%;
+        background-color: #f5f5f5;
+        border-left: 2px solid #ff7150;
+        right: -4px;
+        animation: cursor 8s infinite,         typing 20s steps(14) infinite;
+    }
+
+    @keyframes cursor {
+        0%, 20% {
+            border-left: 2px solid #ff7150;            
+        }
+        5%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+            border-left: 2px solid #ff7150;
+        }
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+            width: 0;
+        }
+    }
+
+    @keyframes words {
+        0%, 25% {
+            content: "Kanhaiya Lal Jangid";
+        } 
+        26%, 50% {
+            content: 'Frontend Developer';
+        }    
+        51%, 75% {
+            content: 'Web Designer';
+        }    
+        76%, 100% {
+            content: 'Youtuber';
+        }
+    }
+
+    @keyframes typing {
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+            width: 0;
+        }
+        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+            width: calc(100% + 3px);
+        }
+    }
+     
+     .skills {            
+         ul {             
+             display: flex; 
+             flex-wrap: wrap;                       
+             li {
+                 height: 1.5rem;
+                 width: 3rem;
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center; 
+                 justify-content: center; 
+                 margin: 10px;
+                 border: 2px solid black;
+                 border-radius: 4px;                 
+                 
+                 i {
+                     padding-bottom: 1rem;
+                 }
+             }
+         }
+     }
+     
+     
       
     
