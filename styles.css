@@ -308,20 +308,42 @@ li {
      }
           
      .Pro {
-        display: flex;               
-        align-items: center;
-        justify-content: flex-start; 
-        overflow-x: auto; 
-        gap: 1rem;
-        width: 100%; 
-        white-space: nowrap; 
-    }
+          overflow-x: auto;
+          padding: 1em;
+     }
 
-    .Pro .project {                      
-        height: 28rem;
-        width: 17.4rem;
-        border-radius: 1rem;     
-    }
+     .Pro .Projects {
+          display: flex;
+          flex-wrap: nowrap;
+          gap: 1em;
+     }
+
+    .project {
+        min-width: 300px;
+        max-width: 90%; /* Ensure the cards don't overflow the container */
+        padding: 1em;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        flex-shrink: 0;
+   }
+
+   .project p {
+       margin: 0.5em 0;
+       padding: 0;
+      text-align: justify;
+      white-space: normal; /* Ensure text wrapping */
+      word-wrap: break-word; /* Break words if necessary */
+   }
+
+   .project h3 {
+      margin: 0 0 0.5em 0;
+   }
+
+  .project a {
+      display: block;
+      margin: 0.5em 0;
+  }
                     
      .animated-text {
         font-size: 20px;
