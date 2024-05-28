@@ -319,7 +319,7 @@ li {
      }
 
     .project {
-        min-width: 300px;
+        min-width: 270px;
         max-width: 90%; /* Ensure the cards don't overflow the container */
         padding: 1em;
         background: #fff;
