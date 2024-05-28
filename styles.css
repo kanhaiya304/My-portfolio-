@@ -329,6 +329,7 @@ li {
    }
 
    .project p {
+       height: 25rem;
        margin: 0.5em 0;
        padding: 0;
       text-align: justify;
@@ -341,8 +342,14 @@ li {
    }
 
   .project a {
-      display: block;
-      margin: 0.5em 0;
+      display: flex;
+     justify-content: center; 
+     align-items: center; 
+     margin: 0.5em 0;
+     padding: 5px 0;
+     border: 2px solid blue;
+     border-radius: 4px; 
+     color: blue;
   }
                     
      .animated-text {
