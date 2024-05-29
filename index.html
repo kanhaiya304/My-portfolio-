@@ -178,6 +178,21 @@ closes.forEach(close => {
   });
 });
 
+document.addEventListener("DOMContentLoaded", function() {
+    const moreText = document.getElementById("moreText");
+    const toggleButton = document.getElementById("toggleButton");
+
+    toggleButton.addEventListener("click", function() {
+        if (moreText.style.display === "none" || moreText.style.display === "") {
+            moreText.style.display = "inline";
+            toggleButton.textContent = "See Less";
+        } else {
+            moreText.style.display = "none";
+            toggleButton.textContent = "See More";
+        }
+    });
+});
+
     </script>
 </body>
 </html>
