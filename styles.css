@@ -132,6 +132,10 @@ footer {
                font-size: 10px;
            }
    }
+
+   .project a {
+       text-decoration: none;
+   }
        
 }
     
