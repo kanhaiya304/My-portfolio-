@@ -131,11 +131,7 @@ footer {
            td {
                font-size: 10px;
            }
-   }
-
-   .project a {
-       text-decoration: none;
-   }
+   }   
        
 }
     
@@ -340,10 +336,11 @@ li {
    }
 
   .project a {
-      display: flex;
+     display: flex;
      justify-content: center; 
      align-items: center; 
-     margin: 0.5em 0;
+     text-decoration: none;
+     margin: 0.5em 0;     
      padding: 5px 0;
      border: 2px solid blue;
      border-radius: 4px; 
