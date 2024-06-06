@@ -48,8 +48,7 @@ nav a {
 }
 
 .projects {
-    background-image: url("img6.jpg");
-    background-size: cover;
+    background-color: #f5f5f5;
 }
 
 .project {
@@ -261,8 +260,7 @@ li {
      .experience {
          margin: 2rem 0;                        
          padding: 1rem;
-         background-image: url("img4.jpg");
-         background-size: cover;
+         background-color: #EDF2F4;
          color :black;
          border-radius: 1rem;
          font-size:1.2rem;
@@ -326,10 +324,7 @@ a Lal Jangid";
         }
     }
      
-     .skills { 
-         background-image: url("img4.jpg");
-         background-size: cover;
-         
+     .skills {          
          ul {             
              display: flex; 
              flex-wrap: wrap;                       
