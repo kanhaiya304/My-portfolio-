@@ -5,7 +5,7 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+.container {    
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -34,7 +34,7 @@ nav a {
     color: white;
 }
 
-.hero {
+.hero {      
     background-color: #f5f5f5;
     padding: 100px 0;
     text-align: center;
@@ -51,7 +51,7 @@ nav a {
     background-color: #f5f5f5;
 }
 
-.project {
+.project {    
     background-color: white;
     padding: 20px;
     margin-bottom: 20px;
@@ -78,179 +78,186 @@ footer {
     background-color: #555;
 }
     
-@media(max-width:400px){
-    a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        font-size:1.1rem;            
-    }       
+    @media(max-width:400px){
         
-   .sidebar {
-        position:fixed;
-        height:100%;
-        width:100%;            
+        
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size:1.1rem;            
+        }       
+        
+        .sidebar {
+            position:fixed;
+            height:100%;
+            width:100%;            
             background-color:rgba(250,250,250,0.9);                       
-        text-align:center;
-        padding-top:80%;  
-        font-weight:bold;             
-        display:none;                                                                                       
-   }        
+            text-align:center;
+            padding-top:80%;  
+            font-weight:bold;             
+            display:none;                                                                                       
+        }        
        
-   #close {
-        position:fixed;
-        top:1.5rem;
-        right: 1rem;
-   }
+       #close {
+           position:fixed;
+           top:1.5rem;
+           right: 1rem;
+       }
                                    
-   .fa-github,.fa-linkedin {
-        position:relative; 
-        display:inline-block;
-        margin-bottom:3rem;  
-        color:white;    
-   }      
+       .fa-github,.fa-linkedin {
+           position:relative; 
+           display:inline-block;
+           margin-bottom:3rem;  
+           color:white;
+       }        
                                                     
-   .header {
-        display:none;
-   }   
+       .header {
+           display:none;
+       }   
        
-   #menu {
-        top:0;
-        margin-left:4rem;
-   } 
+       #menu {
+           top:0;
+           margin-left:4rem;
+       } 
        
-   .Massage {           
-        flex-direction:column;           
-   }
+       .Massage {           
+           flex-direction:column;           
+       }
               
-   .link {
-        disp;ay:none;
-   }
-
-   table {
-           td {
-               font-size: 10px;
-           }
-   }   
+       .link {
+           disp;ay:none;
+       } 
        
-}
+       table {
+           td {
+               font-size: 1px;
+           }
+       }                                                      
+    }
     
-.logo {
+    .logo {
         height:1.6rem;
         width:7.8rem;
         text-shadow:0 0 1rem rgb(250,120,100);
         color:white;
         padding: 1rem;
-}
+    }
     
-.HG,.PH {
+    .HG,.PH {
         margin:0;
         padding: 0;
-}
-    
-@media(min-width:600px){
-    #menu,.sidebar {            
-        display:none;
-             
     }
-         
-    footer {
-        display:flex;
-        align-items:center;
-        justify-content:center;
-   }
-         
-   .contact {
-        display:flex;
-        justify-content:center;
-        align-items:center;
-        flex-direction:column;
-   }
-         
-}
-     
-}
-     
-.Massage {
-       padding:2rem 1rem 2rem 1rem;
-       display:flex;
-       align-items:center ;
-       justify-content:space-around;            
-       background-color:#222f3d; 
-       color:white;        
-}
-     
-.contact {
-       margin:0;
-       padding:0;
-}
+    
+     @media(min-width:600px){
+         #menu,.sidebar {            
+             display:none;
              
-.input {       
-       width:20rem;
-       margin-bottom:1rem;
-       background-color:white;
-       border-radius:0.5rem;
-       padding-top:1rem;
-       padding-bottom: 8rem;
-}
+         }
+         
+         footer {
+             display:flex;
+             align-items:center;
+             justify-content:center;
+         }
+         
+         .contact {
+             display:flex;
+             justify-content:center;
+             align-items:center;
+             flex-direction:column;
+         }
+         
+                           
+     }
      
-.Input {
-       height:2.2rem;
-       width:20rem;
-       margin-bottom:0.4rem;
-       background-color:white;
-       border-radius:0.5rem;
-}
+     .Nav-bar {
+         display:flex;
+         align-items: center;
+         justify-content:space-around;         
+     }
+     
+     .Massage {
+         padding:2rem 1rem 2rem 1rem;
+         display:flex;
+         align-items:center ;
+         justify-content:space-around;            
+         background-color:#222f3d; 
+         color:white;               
+     }
+     
+     .contact {
+         margin:0;
+         padding:0;
+     }
+             
+     .input {       
+         width:20rem;
+         margin-bottom:1rem;
+         background-color:white;
+         border-radius:0.5rem;
+         padding-top:1rem;
+         padding-bottom: 8rem;
+     }
+     
+     .Input {
+         height:2.2rem;
+         width:20rem;
+         margin-bottom:0.4rem;
+         background-color:white;
+         border-radius:0.5rem;
+     }
                
-.foot-panel1 {
-       .BT {
-           text-decoration:none;
-           color:white;
-       }
+     .foot-panel1 {
+         .BT {
+             text-decoration:none;
+             color:white;
+         }
 
-       background-color: #37475a;
-       color: white;
-       height: 50px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       font-size: 0.85rem;
-}
+         background-color: #37475a;
+         color: white;
+         height: 50px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 0.85rem;
+
+     }
   
-#FL {
-       background-color:#37475a;
-       display:flex;
-       align-items:center;
-       justify-content:center;
-}
+     #FL {
+         background-color:#37475a;
+         display:flex;
+         align-items:center;
+         justify-content:center;
+     }
    
-.FLP {
-       margin:0.5rem;
-}
+     .FLP {
+         margin:0.5rem;
+     }
      
-.fa-github,.fa-linkedin {
-       color:white;
-       margin-left: 4rem;         
-}
+     .fa-github,.fa-linkedin {
+         color:white;
+         margin-left: 4rem;         
+     }
      
-.fa-github {
-       margin-right:4rem;
-}
+     .fa-github {
+         margin-right:4rem;
+     }
      
-.link {
-       display:flex;
-       flex-direction:column;
-       align-items:center;
-       justify-content:center;
-}
+     .link {
+         display:flex;
+         flex-direction:column;
+         align-items:center;
+         justify-content:center;
+     }
      
-::placeholder {
-       position:relative;
-       color: black;
-       padding:1rem;
-}
+     ::placeholder {
+         position:relative;
+         color: black;
+         padding:1rem;
+     }
      
-li {
+     li {
          padding: 2rem;
          list-style-type: none;
          column-count;
@@ -298,9 +305,9 @@ li {
      }
           
      .Pro {
-          overflow-x: auto;
-          padding: 1em;
-     }
+    overflow-x: auto;
+    padding: 1em;        
+}
 
 .Pro .Projects {
     display: flex;
@@ -405,7 +412,7 @@ li {
         }
     }
      
-     .skills {          
+     .skills {            
          ul {             
              display: flex; 
              flex-wrap: wrap;                       
@@ -425,9 +432,9 @@ li {
                  }
              }
          }
-    }
-
-    .slideshow-container {
+     }
+     
+     .slideshow-container {
           position: relative;
           width: 100%;
           max-width: 800px; /* Adjust as needed */
