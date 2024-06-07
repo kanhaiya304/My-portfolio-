@@ -302,7 +302,88 @@ li {
           padding: 1em;
      }
 
-a Lal Jangid";
+.Pro .Projects {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+.project {
+    min-width: 270px;
+    max-width: 90%; /* Ensure the cards don't overflow the container */
+    padding: 1em;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.project p {
+    height: 25rem;
+    margin: 0.5em 0;
+    padding: 0;
+    text-align: justify;
+    white-space: normal; /* Ensure text wrapping */
+    word-wrap: break-word; /* Break words if necessary */
+}
+
+.project h3 {
+    margin: 0 0 0.5em 0;
+}
+
+.project a {    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0.5em 0;
+    padding: 5px 0;
+    border: 2px solid blue;
+    border-radius: 4px; 
+    color: blue;        
+}
+                    
+     .animated-text {
+        font-size: 20px;
+        font-weight: 600;
+        min-width: 280px;
+    }
+
+    .animated-text span {
+        position: relative;
+    }
+
+    .animated-text span::before {
+        content: "Youtuber";
+        color: #ff7150;
+        animation: words 16s infinite;
+    }
+
+    .animated-text span::after {
+        content: "";
+        position: absolute;
+        width: calc(100% - 8px);
+        height: 100%;
+        background-color: #f5f5f5;
+        border-left: 2px solid #ff7150;
+        right: -4px;
+        animation: cursor 8s infinite,         typing 20s steps(14) infinite;
+    }
+
+    @keyframes cursor {
+        0%, 20% {
+            border-left: 2px solid #ff7150;            
+        }
+        5%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+            border-left: 2px solid #ff7150;
+        }
+        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+            width: 0;
+        }
+    }
+
+    @keyframes words {
+        0%, 25% {
+            content: "Kanhaiya Lal Jangid";
         } 
         26%, 50% {
             content: 'Frontend Developer';
