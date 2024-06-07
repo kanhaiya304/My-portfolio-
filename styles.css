@@ -67,7 +67,7 @@ footer {
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: blue;
+    background-color: #404040;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -90,20 +90,40 @@ footer {
         
         .sidebar {
             position:fixed;
+            z-index: 999;
             height:100%;
             width:100%;            
-            background-image: url("Img8.jpg");
-            background-size: cover;                      
+            background-color: #222;                       
             text-align:center;
-            padding-top:80%;  
-            font-weight:bold;             
+            padding-top:40%;  
+            font-weight:bold;                       
             display:none;                                                                                       
-        }        
+        } 
+        
+        .sidebar ul { 
+            display: flex;   
+            flex-direction: column; 
+            justify-content: center; 
+            align-items: center;         
+            
+            li {
+                height: 1rem;
+                width: 4rem;
+                margin: 5px 0;
+                padding: 1rem 2rem;
+                padding-bottom: 20px;
+                background-color: #fff;                
+                border-radius: 10px;
+            }
+        }      
        
        #close {
            position:fixed;
            top:1.5rem;
            right: 1rem;
+           padding: 1rem 0.8rem; 
+           border-radius: 4px;
+           background-color: #fff;
        }
                                    
        .fa-github,.fa-linkedin {
