@@ -50,6 +50,7 @@ nav a {
 .projects {
     background-image: url("Img4.jpg");
     background-size: cover;
+    background-position: center;
 }
 
 .project {    
@@ -114,7 +115,7 @@ footer {
                 margin: 5px 0;
                 padding: 1rem 2rem;
                 padding-bottom: 20px;
-                background-color: #fff;                
+                border: 2px solid #fff;                
                 border-radius: 10px;
             }
         }      
@@ -290,8 +291,7 @@ footer {
      .experience {
          margin: 2rem 0;                        
          padding: 1rem;
-         background-image: url("Img5.jpg");
-         background-size: cover;
+         background-color: #EDF2F4;
          color :black;
          border-radius: 1rem;
          font-size:1.2rem;
@@ -461,8 +461,14 @@ footer {
      .Bacimg {
          background-image: url("Img6.jpg");
          background-size: cover;
+         background-position: center;
      }
-
+      
+     .Bacimg2 {
+         background-image: url("img5.jpg");
+         background-size: cover;
+         background-position: center;
+     }
      
      .slideshow-container {
           position: relative;
