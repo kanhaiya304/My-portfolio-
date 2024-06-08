@@ -51,10 +51,10 @@ nav a {
     background-image: url("Img4.jpg");
     background-size: cover;
     background-position: center;
+}
 
-    h2 {
-        color: #fff;
-    }
+.projects h2 {
+    color: #fff;
 }
 
 .project {    
@@ -78,267 +78,257 @@ footer {
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin-bottom:0.4rem;
+    margin-bottom: 0.4rem;
 }
 
 .btn:hover {
     background-color: #555;
 }
-    
-    @media(max-width:400px){
-        
-        
-        a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-            font-size:1.1rem;            
-        }       
-        
-        .sidebar {
-            position:fixed;
-            z-index: 999;
-            height:100%;
-            width:100%;            
-            background-image: url("Img8.jpg");
-            background-size: cover;                       
-            text-align:center;
-            padding-top:40%;  
-            font-weight:bold;                       
-            display:none;                                                                                       
-        } 
-        
-        .sidebar ul { 
-            display: flex;   
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center;         
-            
-            li {
-                height: 1rem;
-                width: 4rem;
-                margin: 5px 0;
-                padding: 1rem 2rem;
-                padding-bottom: 20px;
-                border: 2px solid #fff;                
-                border-radius: 10px;
-            }
-        }      
-       
-       #close {
-           position:fixed;
-           top:1.5rem;
-           right: 1rem;
-           padding: 1rem 0.8rem; 
-           border-radius: 4px;
-           border: 2px solid #fff;
-           color: #fff;
-       }
-                                   
-       .fa-github,.fa-linkedin {
-           position:relative; 
-           display:inline-block;
-           margin-bottom:3rem;  
-           color:white;
-       }        
-                                                    
-       .header {
-           display:none;
-       }   
-       
-       #menu {
-           top:0;
-           margin-left:4rem;
-       } 
-       
-       .Massage {           
-           flex-direction:column;           
-       }
-              
-       .link {
-           disp;ay:none;
-       } 
-       
-       table {
-           td {
-               font-size: 10px;
-           }
-       }                                                      
-    }
-    
-    .logo {
-        height:1.6rem;
-        width:7.8rem;
-        background-image: url("Logo.png");
-        background-size: cover;
-        padding: 1rem;
-    }
-    
-    .HG,.PH {
-        margin:0;
-        padding: 0;
-    }
-    
-     @media(min-width:600px){
-         #menu,.sidebar {            
-             display:none;
-             
-         }
-         
-         footer {
-             display:flex;
-             align-items:center;
-             justify-content:center;
-         }
-         
-         .contact {
-             display:flex;
-             justify-content:center;
-             align-items:center;
-             flex-direction:column;
-         }
-         
-                           
-     }
-     
-     .Nav-bar {
-         display:flex;
-         align-items: center;
-         justify-content:space-around;         
-     }
-     
-     .Massage {
-         padding:2rem 1rem 2rem 1rem;
-         display:flex;
-         align-items:center ;
-         justify-content:space-around;            
-         background-color:#222f3d; 
-         color:white;               
-     }
-     
-     .contact {
-         margin:0;
-         padding:0;
-     }
-             
-     .input {       
-         width:20rem;
-         margin-bottom:1rem;
-         background-color:white;
-         border-radius:0.5rem;
-         padding-top:1rem;
-         padding-bottom: 8rem;
-     }
-     
-     .Input {
-         height:2.2rem;
-         width:20rem;
-         margin-bottom:0.4rem;
-         background-color:white;
-         border-radius:0.5rem;
-     }
-               
-     .foot-panel1 {
-         .BT {
-             text-decoration:none;
-             color:white;
-         }
 
-         background-color: #37475a;
-         color: white;
-         height: 50px;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         font-size: 0.85rem;
+@media (max-width: 400px) {
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.1rem;            
+    }
 
-     }
-  
-     #FL {
-         background-color:#37475a;
-         display:flex;
-         align-items:center;
-         justify-content:center;
-     }
-   
-     .FLP {
-         margin:0.5rem;
-     }
-     
-     .fa-github,.fa-linkedin {
-         color:white;
-         margin-left: 4rem;         
-     }
-     
-     .fa-github {
-         margin-right:4rem;
-     }
-     
-     .link {
-         display:flex;
-         flex-direction:column;
-         align-items:center;
-         justify-content:center;
-     }
-     
-     ::placeholder {
-         position:relative;
-         color: black;
-         padding:1rem;
-     }
-     
-     li {
-         padding: 2rem;
-         list-style-type: none;
-         column-count;
-         display:inline-block;
-     }
-     
-     .experience {                                 
-         padding: 1rem;
-         background-color: transparent;
-         color : #fff;
-         border: 2px solid #fff;
-         border-radius: 1rem;
-         font-size:1.2rem;
+    .sidebar {
+        position: fixed;
+        z-index: 999;
+        height: 100%;
+        width: 100%;            
+        background-image: url("Img8.jpg");
+        background-size: cover;                       
+        text-align: center;
+        padding-top: 40%;  
+        font-weight: bold;                       
+        display: none;                                                                                       
+    }
 
-         h2 {
-             color: #fff;
-         }
-     }
-     
-     table {
-         width: 100%;                                       
-        th {
-            padding: 4px;
-            background-color: #999;
-            color: black; 
-            border-radius: 4px;
-        }
-                        
-        td {
-           padding: 4px;
-           background-color: black;
-           border-radius: 4px; 
-           color: white;
-           text-align: center; 
-           font-weight: bold;
-        }
-     }
-     
-     .descp {          
-         h4 {
-             margin-bottom: 2px;             
-         }
-                
-         p {                         
-             margin: 0;
-             padding: 0 20px;
-             text-align: justify;                         
-         }                  
-     }
-          
-     .Pro {
+    .sidebar ul { 
+        display: flex;   
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;         
+    }
+
+    .sidebar ul li {
+        height: 1rem;
+        width: 4rem;
+        margin: 5px 0;
+        padding: 1rem 2rem;
+        padding-bottom: 20px;
+        border: 2px solid #fff;                
+        border-radius: 10px;
+    }
+
+    #close {
+        position: fixed;
+        top: 1.5rem;
+        right: 1rem;
+        padding: 1rem 0.8rem; 
+        border-radius: 4px;
+        border: 2px solid #fff;
+        color: #fff;
+    }
+
+    .fa-github, .fa-linkedin {
+        position: relative; 
+        display: inline-block;
+        margin-bottom: 3rem;  
+        color: white;
+    }
+
+    .header {
+        display: none;
+    }
+
+    #menu {
+        top: 0;
+        margin-left: 4rem;
+    }
+
+    .Massage {           
+        flex-direction: column;           
+    }
+
+    .link {
+        display: none;
+    }
+
+    table td {
+        font-size: 10px;
+    }
+}
+
+.logo {
+    height: 1.6rem;
+    width: 7.8rem;
+    background-image: url("Logo.png");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.HG, .PH {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    #menu, .sidebar {            
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;         
+}
+
+.Massage {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;            
+    background-color: #222f3d; 
+    color: white;               
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+
+.input {       
+    width: 20rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+
+.Input {
+    height: 2.2rem;
+    width: 20rem;
+    margin-bottom: 0.4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel1 .BT {
+    text-decoration: none;
+    color: white;
+}
+
+#FL {
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FLP {
+    margin: 0.5rem;
+}
+
+.fa-github, .fa-linkedin {
+    color: white;
+    margin-left: 4rem;         
+}
+
+.fa-github {
+    margin-right: 4rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    position: relative;
+    color: black;
+    padding: 1rem;
+}
+
+li {
+    padding: 2rem;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.experience {                                 
+    padding: 1rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.experience h2 {
+    color: #fff;
+}
+
+table {
+    width: 100%;                                       
+}
+
+table th {
+    padding: 4px;
+    background-color: #999;
+    color: black; 
+    border-radius: 4px;
+}
+
+table td {
+    padding: 4px;
+    background-color: black;
+    border-radius: 4px; 
+    color: white;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.descp h4 {
+    margin-bottom: 2px;             
+}
+
+.descp p {                         
+    margin: 0;
+    padding: 0 20px;
+    text-align: justify;                         
+}
+
+.Pro {
     overflow-x: auto;
     padding: 1em;        
 }
@@ -384,146 +374,666 @@ footer {
     border-radius: 4px; 
     color: blue;        
 }
-                    
-     .animated-text {
-        font-size: 20px;
-        font-weight: 600;
-        min-width: 280px;
-    }
 
-    .animated-text span {
-        position: relative;
-    }
+.animated-text {
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 280px;
+}
 
-    .animated-text span::before {
-        content: "Youtuber";
-        color: #ff7150;
-        animation: words 16s infinite;
-    }
+.animated-text span {
+    position: relative;
+}
 
-    .animated-text span::after {
-        content: "";
-        position: absolute;
-        width: calc(100% - 8px);
-        height: 100%;
-        background-color: #f5f5f5;
+.animated-text span::before {
+    content: "Youtuber";
+    color: #ff7150;
+    animation: words 16s infinite;
+}
+
+.animated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 8px);
+    height: 100%;
+    background-color: #f5f5f5;
+    border-left: 2px solid #ff7150;
+    right: -4px;
+    animation: cursor 8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    0%, 20% {
+        border-left: 2px solid #ff7150;            
+    }
+    5%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
         border-left: 2px solid #ff7150;
-        right: -4px;
-        animation: cursor 8s infinite,         typing 20s steps(14) infinite;
     }
-
-    @keyframes cursor {
-        0%, 20% {
-            border-left: 2px solid #ff7150;            
-        }
-        5%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-            border-left: 2px solid #ff7150;
-        }
-        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
-            width: 0;
-        }
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
     }
+}
 
-    @keyframes words {
-        0%, 25% {
-            content: "Kanhaiya Lal Jangid";
-        } 
-        26%, 50% {
-            content: 'Frontend Developer';
-        }    
-        51%, 75% {
-            content: 'Web Designer';
-        }    
-        76%, 100% {
-            content: 'Youtuber';
-        }
+@keyframes words {
+    0%, 25% {
+        content: "Kanhaiya Lal Jangid";
+    } 
+    26%, 50% {
+        content: 'Frontend Developer';
+    }    
+    51%, 75% {
+        content: 'Web Designer';
+    }    
+    76%, 100% {
+        content: 'Youtuber';
     }
+}
 
-    @keyframes typing {
-        10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
-            width: 0;
-        }
-        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
-            width: calc(100% + 3px);
-        }
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
     }
-     
-     .skills { 
-         background-image: url("Img6.jpg");
-         background-size: cover;
-         background-position: center;
-
-         h2 {
-             color: #fff;
-         }
-         
-         ul {             
-             display: flex; 
-             flex-wrap: wrap;                       
-             li {
-                 height: 1.5rem;
-                 width: 3rem;
-                 display: flex;
-                 flex-direction: column;
-                 align-items: center; 
-                 justify-content: center; 
-                 margin: 10px;
-                 border: 2px solid #fff;
-                 border-radius: 4px; 
-                 color: #fff;
-                 
-                 i {
-                     padding-bottom: 1rem;
-                 }
-             }
-         }
-     } 
-
-     .Bacimg2 {
-         padding: 2rem 1rem;
-         background-image: url("Img5.jpg");
-         background-size: cover;
-         background-position: center;
-     }
-     
-     .slideshow-container {
-          position: relative;
-          width: 100%;
-          max-width: 800px; /* Adjust as needed */
-          margin: auto;
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 3px);
     }
+}
 
-    .slide {
-          display: none;
-          position: absolute;
-          width: 100%;
-          height: 400px; /* Adjust as needed */
-          background-size: cover;
-          background-position: center;
-    }
+.skills { 
+    background-image: url("Img6.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-    .slide.active {
-          display: block;
-    }
+.skills h2 {
+    color: #fff;
+}
 
-    .more-text {
-          display: none;
-    }
+.skills ul {             
+    display: flex; 
+    flex-wrap: wrap;                       
+}
 
-    .toggle-button {
-        display: inline-block;
-        margin: 5px 20px;
-        padding: 5px 10px;
+.skills ul li {
+    height: 1.5rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px; 
+    color: #fff;
+}
+
+.skills ul li i {
+    padding-bottom: 1rem;
+}
+
+.Bacimg2 {
+    padding: 2rem 1rem;
+    background-image: url("Img5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+.more-text {
+    display: none;
+}
+
+.toggle-button {
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: #666; 
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #404040;
+    color: #fff;
+    }body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {    
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav {
+    background-color: #0f1111;
+    color: white;
+    padding: 15px 0;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero {      
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.about,
+.skills,
+.projects,
+.contact {
+    padding: 80px 0;
+}
+
+.projects {
+    background-image: url("Img4.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.projects h2 {
+    color: #fff;
+}
+
+.project {    
+    background-color: transparent;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #404040;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 0.4rem;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+@media (max-width: 400px) {
+    a {
+        text-decoration: none;
+        color: #fff;
         font-weight: bold;
-        cursor: pointer;
-        background-color: transparent;
-        color: #666; 
-        border: 2px solid black;
-        border-radius: 4px;
-        transition: background-color 0.3s;
+        font-size: 1.1rem;            
     }
 
-    .toggle-button:hover {
-        background-color: #404040;
+    .sidebar {
+        position: fixed;
+        z-index: 999;
+        height: 100%;
+        width: 100%;            
+        background-image: url("Img8.jpg");
+        background-size: cover;                       
+        text-align: center;
+        padding-top: 40%;  
+        font-weight: bold;                       
+        display: none;                                                                                       
+    }
+
+    .sidebar ul { 
+        display: flex;   
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center;         
+    }
+
+    .sidebar ul li {
+        height: 1rem;
+        width: 4rem;
+        margin: 5px 0;
+        padding: 1rem 2rem;
+        padding-bottom: 20px;
+        border: 2px solid #fff;                
+        border-radius: 10px;
+    }
+
+    #close {
+        position: fixed;
+        top: 1.5rem;
+        right: 1rem;
+        padding: 1rem 0.8rem; 
+        border-radius: 4px;
+        border: 2px solid #fff;
         color: #fff;
     }
+
+    .fa-github, .fa-linkedin {
+        position: relative; 
+        display: inline-block;
+        margin-bottom: 3rem;  
+        color: white;
+    }
+
+    .header {
+        display: none;
+    }
+
+    #menu {
+        top: 0;
+        margin-left: 4rem;
+    }
+
+    .Massage {           
+        flex-direction: column;           
+    }
+
+    .link {
+        display: none;
+    }
+
+    table td {
+        font-size: 10px;
+    }
+}
+
+.logo {
+    height: 1.6rem;
+    width: 7.8rem;
+    background-image: url("Logo.png");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.HG, .PH {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 600px) {
+    #menu, .sidebar {            
+        display: none;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+.Nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;         
+}
+
+.Massage {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;            
+    background-color: #222f3d; 
+    color: white;               
+}
+
+.contact {
+    margin: 0;
+    padding: 0;
+}
+
+.input {       
+    width: 20rem;
+    margin-bottom: 1rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 8rem;
+}
+
+.Input {
+    height: 2.2rem;
+    width: 20rem;
+    margin-bottom: 0.4rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.foot-panel1 .BT {
+    text-decoration: none;
+    color: white;
+}
+
+#FL {
+    background-color: #37475a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.FLP {
+    margin: 0.5rem;
+}
+
+.fa-github, .fa-linkedin {
+    color: white;
+    margin-left: 4rem;         
+}
+
+.fa-github {
+    margin-right: 4rem;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+::placeholder {
+    position: relative;
+    color: black;
+    padding: 1rem;
+}
+
+li {
+    padding: 2rem;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.experience {                                 
+    padding: 1rem;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.experience h2 {
+    color: #fff;
+}
+
+table {
+    width: 100%;                                       
+}
+
+table th {
+    padding: 4px;
+    background-color: #999;
+    color: black; 
+    border-radius: 4px;
+}
+
+table td {
+    padding: 4px;
+    background-color: black;
+    border-radius: 4px; 
+    color: white;
+    text-align: center; 
+    font-weight: bold;
+}
+
+.descp h4 {
+    margin-bottom: 2px;             
+}
+
+.descp p {                         
+    margin: 0;
+    padding: 0 20px;
+    text-align: justify;                         
+}
+
+.Pro {
+    overflow-x: auto;
+    padding: 1em;        
+}
+
+.Pro .Projects {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1em;
+}
+
+.project {
+    min-width: 270px;
+    max-width: 90%; /* Ensure the cards don't overflow the container */
+    padding: 1em;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.project p {
+    height: 25rem;
+    margin: 0.5em 0;
+    padding: 0;
+    text-align: justify;
+    white-space: normal; /* Ensure text wrapping */
+    word-wrap: break-word; /* Break words if necessary */
+}
+
+.project h3 {
+    margin: 0 0 0.5em 0;
+}
+
+.project a {    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-decoration: none;
+    margin: 0.5em 0;
+    padding: 5px 0;
+    border: 2px solid blue;
+    border-radius: 4px; 
+    color: blue;        
+}
+
+.animated-text {
+    font-size: 20px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span {
+    position: relative;
+}
+
+.animated-text span::before {
+    content: "Youtuber";
+    color: #ff7150;
+    animation: words 16s infinite;
+}
+
+.animated-text span::after {
+    content: "";
+    position: absolute;
+    width: calc(100% - 8px);
+    height: 100%;
+    background-color: #f5f5f5;
+    border-left: 2px solid #ff7150;
+    right: -4px;
+    animation: cursor 8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    0%, 20% {
+        border-left: 2px solid #ff7150;            
+    }
+    5%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        border-left: 2px solid #ff7150;
+    }
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+}
+
+@keyframes words {
+    0%, 25% {
+        content: "Kanhaiya Lal Jangid";
+    } 
+    26%, 50% {
+        content: 'Frontend Developer';
+    }    
+    51%, 75% {
+        content: 'Web Designer';
+    }    
+    76%, 100% {
+        content: 'Youtuber';
+    }
+}
+
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 3px);
+    }
+}
+
+.skills { 
+    background-image: url("Img6.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.skills h2 {
+    color: #fff;
+}
+
+.skills ul {             
+    display: flex; 
+    flex-wrap: wrap;                       
+}
+
+.skills ul li {
+    height: 1.5rem;
+    width: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    margin: 10px;
+    border: 2px solid #fff;
+    border-radius: 4px; 
+    color: #fff;
+}
+
+.skills ul li i {
+    padding-bottom: 1rem;
+}
+
+.Bacimg2 {
+    padding: 2rem 1rem;
+    background-image: url("Img5.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 400px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+.slide.active {
+    display: block;
+}
+
+.more-text {
+    display: none;
+}
+
+.toggle-button {
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    color: #666; 
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.toggle-button:hover {
+    background-color: #404040;
+    color: #fff;
+}
