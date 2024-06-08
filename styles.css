@@ -58,7 +58,7 @@ nav a {
 }
 
 .project {    
-    background-color: white;
+    background-color: transparent;
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -467,11 +467,11 @@ footer {
                  justify-content: center; 
                  margin: 10px;
                  border: 2px solid #fff;
-                 border-radius: 4px;                 
+                 border-radius: 4px; 
+                 color: #fff;
                  
                  i {
                      padding-bottom: 1rem;
-                     color: #fff;
                  }
              }
          }
