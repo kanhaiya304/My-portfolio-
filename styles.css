@@ -293,8 +293,7 @@ footer {
          display:inline-block;
      }
      
-     .experience {
-         margin: 2rem 0;                        
+     .experience {                                 
          padding: 1rem;
          background-color: #EDF2F4;
          color :black;
@@ -446,7 +445,9 @@ footer {
     }
      
      .skills { 
-         padding-top: 1rem;
+         background-image: url("Img6.jpg");
+         background-size: cover;
+         background-position: center;
 
          h2, a {
              color: #fff;
@@ -471,15 +472,9 @@ footer {
                  }
              }
          }
-     }
-
-     .Bacimg {
-         background-image: url("Img6.jpg");
-         background-size: cover;
-         background-position: center;
-     }
-      
+     }     
      .Bacimg2 {
+         padding: 2rem 1rem;
          background-image: url("Img5.jpg");
          background-size: cover;
          background-position: center;
