@@ -449,7 +449,7 @@ footer {
          background-size: cover;
          background-position: center;
 
-         h2, a {
+         h2 {
              color: #fff;
          }
          
@@ -469,10 +469,12 @@ footer {
                  
                  i {
                      padding-bottom: 1rem;
+                     color: #fff;
                  }
              }
          }
-     }     
+     } 
+
      .Bacimg2 {
          padding: 2rem 1rem;
          background-image: url("Img5.jpg");
