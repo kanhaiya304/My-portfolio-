@@ -295,8 +295,9 @@ footer {
      
      .experience {                                 
          padding: 1rem;
-         background-color: #EDF2F4;
-         color :black;
+         background-color: transparent;
+         color : #fff;
+         border: 2px solid #fff;
          border-radius: 1rem;
          font-size:1.2rem;
 
@@ -351,7 +352,8 @@ footer {
     min-width: 270px;
     max-width: 90%; /* Ensure the cards don't overflow the container */
     padding: 1em;
-    background: #fff;
+    background: transparent;
+    border: 2px solid #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex-shrink: 0;
