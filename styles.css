@@ -484,17 +484,12 @@ table td {
     margin: auto;
 }
 
-.slide {
-    display: none;
+.slide {    
     position: absolute;
     width: 100%;
     height: 400px; /* Adjust as needed */
     background-size: cover;
     background-position: center;
-}
-
-.slide.active {
-    display: block;
 }
 
 .more-text {
