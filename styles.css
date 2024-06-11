@@ -294,10 +294,6 @@ li {
     font-size: 1.2rem;
 }
 
-.experience h2 {
-    color: #fff;
-}
-
 table {
     width: 100%;                                       
 }
@@ -477,6 +473,10 @@ table td {
     background-position: center;
 }
 
+.Bacimg2 h2 {
+    color: #fff;
+}
+
 .slideshow-container {
     position: relative;
     width: 100%;
@@ -484,7 +484,8 @@ table td {
     margin: auto;
 }
 
-.slide {    
+.slide {
+    display: none;
     position: absolute;
     width: 100%;
     height: 400px; /* Adjust as needed */
@@ -492,10 +493,13 @@ table td {
     background-position: center;
 }
 
+.slide.active {
+    display: block;
+}
+
 .more-text {
     display: none;
 }
-
 .toggle-button {
     display: inline-block;
     margin: 5px 20px;
