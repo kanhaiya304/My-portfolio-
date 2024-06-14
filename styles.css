@@ -1037,8 +1037,8 @@ table td {
 .slide {
     display: none;
     position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     animation: fade 5s infinite;
@@ -1093,7 +1093,11 @@ table td {
     color: #fff;
 }
 
-.about h2 p {
+.about h2 {
+    color: #fff;
+}
+
+.about p {
     color: #fff;
 }
 
