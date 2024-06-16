@@ -198,19 +198,30 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-        let slideIndex = 0;
-showSlides();
+document.addEventListener("DOMContentLoaded", function() {
+            function setupSlides(containerSelector) {
+                let currentSlide = 0;
+                const slides = document.querySelectorAll(containerSelector + ' .slide');
+                const totalSlides = slides.length;
 
-function showSlides() {
-  let slides = document.getElementsByClassName("slide");
-  for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  slides[slideIndex-1].style.display = "block";  
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
+                function showSlide(index) {
+                    slides.forEach((slide, i) => {
+                        slide.style.display = i === index ? 'block' : 'none';
+                    });
+                }
+
+                function nextSlide() {
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                    showSlide(currentSlide);
+                }
+
+                showSlide(currentSlide);
+                setInterval(nextSlide, 5000);
+            }
+
+            setupSlides('.hero .slideshow-container');
+            setupSlides('#about .slideshow-container');
+        });
 
     </script>
 </body>
