@@ -1022,16 +1022,9 @@ table td {
 }
 
 .slideshow-container {
-    position: relative;
-    width: 100%;
-    max-width: 800px; /* Adjust as needed */
-    margin: auto;
-}
-
-.slideshow-container {
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 100%;      
     z-index: -1;
     overflow: hidden;
 }
@@ -1039,11 +1032,11 @@ table td {
 .slide {
     display: none;
     position: absolute;
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    animation: fade 5s infinite;
+    animation: fade 15s infinite;
 }
 
 .slide:nth-child(1) {
@@ -1058,21 +1051,15 @@ table td {
     animation-delay: 10s;
 }
 
-@keyframes fade {
-    0%, 100% {
-        opacity: 0;
-    }
-    20%, 80% {
-        opacity: 1;
-    }
+.about {
+    position: relative;    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
-
-/* Ensure container content is above the slideshow */
-.container {
-    position: relative;
-    z-index: 1;
-}
-
 .more-text {
     display: none;
 }
