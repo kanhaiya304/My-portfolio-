@@ -398,7 +398,7 @@ table td {
     position: absolute;
     width: calc(100% - 8px);
     height: 100%;
-    background-color: transparent;
+    background-color: #D3D3D3;
     border-left: 2px solid #ff7150;
     right: -4px;
     animation: cursor 8s infinite, typing 20s steps(14) infinite;
