@@ -61,7 +61,7 @@ Once the project is set up, you can explore the different sections of the websit
 
 Include screenshots of your project to showcase its features and design.
 
-![Hero Section](![IMG_20240622_182217](https://github.com/kanhaiya304/My-portfolio-/assets/133117538/e9c0e755-35f1-4bd5-adc3-229e6654f424))
+![Hero Section](https://github.com/kanhaiya304/My-portfolio-/assets/133117538/e9c0e755-35f1-4bd5-adc3-229e6654f424)
 ![About Me Section](https://link-to-screenshot.com/about-me-section.png)
 ![Projects Section](https://link-to-screenshot.com/projects-section.png)
 ![Contact Section](https://link-to-screenshot.com/contact-section.png)
